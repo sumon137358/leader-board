@@ -130,6 +130,7 @@ main {
   grid-template-columns: repeat(3, 1fr 1fr 1fr);
   padding: 20px;
   column-gap: 25px;
+
 }
 .cources-content {
   display: grid;
@@ -137,6 +138,7 @@ main {
   justify-content: space-around;
   justify-items: center;
     align-items: center;
+   
 }
 .cources-review {
   padding-right: 10px;
@@ -174,6 +176,6 @@ color: #ED6B4F;
 padding: 5px;
 }
 
-/* #players-container,.blog-container{
+/* #players-container{
   display: none;
 } */

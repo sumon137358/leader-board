@@ -1,56 +1,66 @@
-
 /* header part  */
-@media only screen and (min-width:360px) and (max-width:416px) {
-    header{
-        width: 70%;
-        margin: 0 auto;
-        
-    }
- 
-    header .navber{
-       height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;   
-    }
-    nav{
-        display: flex;
+@media only screen and (min-width: 360px) and (max-width: 416px) {
+  header {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  header .navber {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  nav {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    }
-    nav a{
-        padding: 10px 0;
-    }
-    .logo{
-        margin-top: 10px;
-    }
-   
-  
-    /* main  */
-    .players,.blogs,.blog,.cources,.course{
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 10px;
-       
-        padding: 20px;
-       align-items: center;
-    }
-    .blog-container h3{
-        padding: 20px;
-    }
-    .course-img img {
-        width: 12em;
-        height: 8em;
-    }
+  }
+  nav a {
+    padding: 10px 0;
+  }
+  .logo {
+    margin-top: 10px;
+  }
 
-    
+  /* main section  */
+
+  .players,
+  .blogs,
+  .blog,
+  .cources,
+  .course {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+
+    padding: 20px;
+    align-items: center;
+  }
+  .blog-container h3 {
+    padding: 20px;
+  }
+  .course-img img {
+    width: 12em;
+    height: 8em;
+  }
 }
- /* medium device screen  */
- @media only screen and (min-width:768px) and (max-width:896px) {  
-    .players {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    
- }
+/* medium device screen  */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .players {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .blog {
+    grid-template-columns: auto;
+  }
+
+  .cources {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 15px;
+    padding-left: 10px;
+    row-gap: 33px;
+  }
+}
